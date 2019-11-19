@@ -1,4 +1,12 @@
-print ("Hello word")
-a=input("Give a Name: ")
-print(a)
-print("I am not a tester!!!!!")
+# 
+
+w=5
+x=4
+y=8
+z=2
+
+a = 5
+b = 2
+c = 3
+result = a + b * c
+print(result)
