@@ -26,4 +26,4 @@ if __name__ == "__main__":
 
     d = sum(b,c,a)
 
-    print(" the total to pay is $ : ", str(d))
+    print(" the total to pay is : $", str(d))
