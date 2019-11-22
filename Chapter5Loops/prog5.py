@@ -8,8 +8,9 @@ for year in range(x):
     Year=year+1
     print("""
     Please submit average rain drop for year """+str(Year))
+    months=year*12
     for month in range(12):
-        Month=month+1
+        Month=month+1+months
         rain=float(input("How many inches of rain received this month "+str(Month)+" ? :"))
         total_rain=total_rain+rain
         Ave_Drop=total_rain/(Month)
