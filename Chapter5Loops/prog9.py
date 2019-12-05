@@ -1,2 +1,2 @@
-for x in range(-8):
+for x in range(7,0,-1):
     print("*"*x)
